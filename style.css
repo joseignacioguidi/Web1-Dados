@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dado {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.primero {
+    color: #052a0f;
+}
+
+.segundo {
+    color: #380c6e;
+}
+#dado1{
+    width: 50px;
+}
+#dado2{
+    width: 50px;
+}
